@@ -1,0 +1,17 @@
+#Jupyter notebook
+jupyter==1.0.0
+#Remote SPARQL access
+SPARQLWrapper==1.8.5
+#Ontology access
+OWLready2==0.45
+requests==2.31
+#Required this version instead of 3.0
+pyparsing==2.4.7
+#RDF graph management
+rdflib==7.1.3
+#Pandas: tabular data management
+pandas==2.2.3
+#Levenshtein String similarity 
+python-Levenshtein==0.26.1
+#Reasoning. Version 7.1.3 requires RDFLib 7.1.3
+owlrl==7.1.3

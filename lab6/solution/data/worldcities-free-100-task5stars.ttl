@@ -1,0 +1,1045 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix wco: <http://www.semanticweb.org/ernesto/in3067-inm713/wco/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Ahmadabad a wco:City ;
+    wco:admin_name "Gujarāt"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:India ;
+    wco:latitude "23.03"^^xsd:float ;
+    wco:longitude "72.58"^^xsd:float ;
+    wco:name "Ahmadābād"^^xsd:string ;
+    wco:name_ascii "Ahmadabad"^^xsd:string ;
+    wco:population "7410000"^^xsd:long .
+
+dbr:Bangalore a wco:City ;
+    wco:admin_name "Karnātaka"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:India ;
+    wco:latitude "12.9699"^^xsd:float ;
+    wco:longitude "77.598"^^xsd:float ;
+    wco:name "Bangalore"^^xsd:string ;
+    wco:name_ascii "Bangalore"^^xsd:string ;
+    wco:population "13707000"^^xsd:long .
+
+dbr:Bangkok a wco:City ;
+    wco:admin_name "Krung Thep Maha Nakhon"^^xsd:string ;
+    wco:isCapitalOf dbr:Thailand ;
+    wco:latitude "13.75"^^xsd:float ;
+    wco:longitude "100.5167"^^xsd:float ;
+    wco:name "Bangkok"^^xsd:string ;
+    wco:name_ascii "Bangkok"^^xsd:string ;
+    wco:population "17066000"^^xsd:long .
+
+dbr:Baoding a wco:City ;
+    wco:admin_name "Hebei"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "38.8671"^^xsd:float ;
+    wco:longitude "115.4845"^^xsd:float ;
+    wco:name "Baoding"^^xsd:string ;
+    wco:name_ascii "Baoding"^^xsd:string ;
+    wco:population "10700000"^^xsd:long .
+
+dbr:Beijing a wco:City ;
+    wco:admin_name "Beijing"^^xsd:string ;
+    wco:isCapitalOf dbr:China ;
+    wco:latitude "39.905"^^xsd:float ;
+    wco:longitude "116.3914"^^xsd:float ;
+    wco:name "Beijing"^^xsd:string ;
+    wco:name_ascii "Beijing"^^xsd:string ;
+    wco:population "19433000"^^xsd:long .
+
+dbr:Bijie a wco:City ;
+    wco:admin_name "Guizhou"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "27.3019"^^xsd:float ;
+    wco:longitude "105.2863"^^xsd:float ;
+    wco:name "Bijie"^^xsd:string ;
+    wco:name_ascii "Bijie"^^xsd:string ;
+    wco:population "6537498"^^xsd:long .
+
+<http://dbpedia.org/resource/Bogota,_New_Jersey> a wco:City ;
+    wco:admin_name "Bogotá"^^xsd:string ;
+    wco:isCapitalOf dbr:Colombia ;
+    wco:latitude "4.6126"^^xsd:float ;
+    wco:longitude "-74.0705"^^xsd:float ;
+    wco:name "Bogotá"^^xsd:string ;
+    wco:name_ascii "Bogota"^^xsd:string ;
+    wco:population "9464000"^^xsd:long .
+
+dbr:Buenos_Aires a wco:City ;
+    wco:admin_name "Buenos Aires, Ciudad Autónoma de"^^xsd:string ;
+    wco:isCapitalOf dbr:Argentina ;
+    wco:latitude "-34.5997"^^xsd:float ;
+    wco:longitude "-58.3819"^^xsd:float ;
+    wco:name "Buenos Aires"^^xsd:string ;
+    wco:name_ascii "Buenos Aires"^^xsd:string ;
+    wco:population "16157000"^^xsd:long .
+
+dbr:Cairo a wco:City ;
+    wco:admin_name "Al Qāhirah"^^xsd:string ;
+    wco:isCapitalOf dbr:Egypt ;
+    wco:latitude "30.0561"^^xsd:float ;
+    wco:longitude "31.2394"^^xsd:float ;
+    wco:name "Cairo"^^xsd:string ;
+    wco:name_ascii "Cairo"^^xsd:string ;
+    wco:population "19372000"^^xsd:long .
+
+dbr:Cangzhou a wco:City ;
+    wco:admin_name "Hebei"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "38.3037"^^xsd:float ;
+    wco:longitude "116.8452"^^xsd:float ;
+    wco:name "Cangzhou"^^xsd:string ;
+    wco:name_ascii "Cangzhou"^^xsd:string ;
+    wco:population "6800000"^^xsd:long .
+
+dbr:Changchun a wco:City ;
+    wco:admin_name "Jilin"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "43.9"^^xsd:float ;
+    wco:longitude "125.2"^^xsd:float ;
+    wco:name "Changchun"^^xsd:string ;
+    wco:name_ascii "Changchun"^^xsd:string ;
+    wco:population "7674439"^^xsd:long .
+
+dbr:Changsha a wco:City ;
+    wco:admin_name "Hunan"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "28.1987"^^xsd:float ;
+    wco:longitude "112.9709"^^xsd:float ;
+    wco:name "Changsha"^^xsd:string ;
+    wco:name_ascii "Changsha"^^xsd:string ;
+    wco:population "7044118"^^xsd:long .
+
+dbr:Chengdu a wco:City ;
+    wco:admin_name "Sichuan"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "30.6636"^^xsd:float ;
+    wco:longitude "104.0667"^^xsd:float ;
+    wco:name "Chengdu"^^xsd:string ;
+    wco:name_ascii "Chengdu"^^xsd:string ;
+    wco:population "11309000"^^xsd:long .
+
+dbr:Chennai a wco:City ;
+    wco:admin_name "Tamil Nādu"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:India ;
+    wco:latitude "13.0825"^^xsd:float ;
+    wco:longitude "80.275"^^xsd:float ;
+    wco:name "Chennai"^^xsd:string ;
+    wco:name_ascii "Chennai"^^xsd:string ;
+    wco:population "11324000"^^xsd:long .
+
+dbr:Chicago a wco:City ;
+    wco:admin_name "Illinois"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:United_States ;
+    wco:latitude "41.8373"^^xsd:float ;
+    wco:longitude "-87.6862"^^xsd:float ;
+    wco:name "Chicago"^^xsd:string ;
+    wco:name_ascii "Chicago"^^xsd:string ;
+    wco:population "8604203"^^xsd:long .
+
+dbr:Chongqing a wco:City ;
+    wco:admin_name "Chongqing"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "29.55"^^xsd:float ;
+    wco:longitude "106.5069"^^xsd:float ;
+    wco:name "Chongqing"^^xsd:string ;
+    wco:name_ascii "Chongqing"^^xsd:string ;
+    wco:population "7739000"^^xsd:long .
+
+dbr:Dar_es_Salaam a wco:City ;
+    wco:admin_name "Dar es Salaam"^^xsd:string ;
+    wco:isCapitalOf dbr:Tanzania ;
+    wco:latitude "-6.8"^^xsd:float ;
+    wco:longitude "39.2833"^^xsd:float ;
+    wco:name "Dar es Salaam"^^xsd:string ;
+    wco:name_ascii "Dar es Salaam"^^xsd:string ;
+    wco:population "6698000"^^xsd:long .
+
+dbr:Delhi a wco:City ;
+    wco:admin_name "Delhi"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:India ;
+    wco:latitude "28.66"^^xsd:float ;
+    wco:longitude "77.23"^^xsd:float ;
+    wco:name "Delhi"^^xsd:string ;
+    wco:name_ascii "Delhi"^^xsd:string ;
+    wco:population "29617000"^^xsd:long .
+
+dbr:Dhaka a wco:City ;
+    wco:admin_name "Dhaka"^^xsd:string ;
+    wco:isCapitalOf dbr:Bangladesh ;
+    wco:latitude "23.7161"^^xsd:float ;
+    wco:longitude "90.3961"^^xsd:float ;
+    wco:name "Dhaka"^^xsd:string ;
+    wco:name_ascii "Dhaka"^^xsd:string ;
+    wco:population "15443000"^^xsd:long .
+
+dbr:Dongguan a wco:City ;
+    wco:admin_name "Guangdong"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "23.0475"^^xsd:float ;
+    wco:longitude "113.7493"^^xsd:float ;
+    wco:name "Dongguan"^^xsd:string ;
+    wco:name_ascii "Dongguan"^^xsd:string ;
+    wco:population "7981000"^^xsd:long .
+
+dbr:Foshan a wco:City ;
+    wco:admin_name "Guangdong"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "23.0292"^^xsd:float ;
+    wco:longitude "113.1056"^^xsd:float ;
+    wco:name "Foshan"^^xsd:string ;
+    wco:name_ascii "Foshan"^^xsd:string ;
+    wco:population "7194311"^^xsd:long .
+
+dbr:Fuyang a wco:City ;
+    wco:admin_name "Anhui"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "32.8986"^^xsd:float ;
+    wco:longitude "115.8045"^^xsd:float ;
+    wco:name "Fuyang"^^xsd:string ;
+    wco:name_ascii "Fuyang"^^xsd:string ;
+    wco:population "8360000"^^xsd:long .
+
+dbr:Ganzhou a wco:City ;
+    wco:admin_name "Jiangxi"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "25.8292"^^xsd:float ;
+    wco:longitude "114.9336"^^xsd:float ;
+    wco:name "Ganzhou"^^xsd:string ;
+    wco:name_ascii "Ganzhou"^^xsd:string ;
+    wco:population "8677600"^^xsd:long .
+
+dbr:Guangzhou a wco:City ;
+    wco:admin_name "Guangdong"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "23.1288"^^xsd:float ;
+    wco:longitude "113.259"^^xsd:float ;
+    wco:name "Guangzhou"^^xsd:string ;
+    wco:name_ascii "Guangzhou"^^xsd:string ;
+    wco:population "20902000"^^xsd:long .
+
+dbr:Handan a wco:City ;
+    wco:admin_name "Hebei"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "36.6116"^^xsd:float ;
+    wco:longitude "114.4894"^^xsd:float ;
+    wco:name "Handan"^^xsd:string ;
+    wco:name_ascii "Handan"^^xsd:string ;
+    wco:population "8499000"^^xsd:long .
+
+dbr:Hangzhou a wco:City ;
+    wco:admin_name "Zhejiang"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "30.25"^^xsd:float ;
+    wco:longitude "120.1675"^^xsd:float ;
+    wco:name "Hangzhou"^^xsd:string ;
+    wco:name_ascii "Hangzhou"^^xsd:string ;
+    wco:population "6446000"^^xsd:long .
+
+dbr:Hanoi a wco:City ;
+    wco:admin_name "Hà Nội"^^xsd:string ;
+    wco:isCapitalOf dbr:Vietnam ;
+    wco:latitude "21.0245"^^xsd:float ;
+    wco:longitude "105.8412"^^xsd:float ;
+    wco:name "Hanoi"^^xsd:string ;
+    wco:name_ascii "Hanoi"^^xsd:string ;
+    wco:population "7785000"^^xsd:long .
+
+dbr:Hefei a wco:City ;
+    wco:admin_name "Anhui"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "31.8639"^^xsd:float ;
+    wco:longitude "117.2808"^^xsd:float ;
+    wco:name "Hefei"^^xsd:string ;
+    wco:name_ascii "Hefei"^^xsd:string ;
+    wco:population "7457027"^^xsd:long .
+
+dbr:Hengyang a wco:City ;
+    wco:admin_name "Hunan"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "26.8968"^^xsd:float ;
+    wco:longitude "112.5857"^^xsd:float ;
+    wco:name "Hengyang"^^xsd:string ;
+    wco:name_ascii "Hengyang"^^xsd:string ;
+    wco:population "7148344"^^xsd:long .
+
+dbr:Heze a wco:City ;
+    wco:admin_name "Shandong"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "35.2333"^^xsd:float ;
+    wco:longitude "115.4333"^^xsd:float ;
+    wco:name "Heze"^^xsd:string ;
+    wco:name_ascii "Heze"^^xsd:string ;
+    wco:population "8750000"^^xsd:long .
+
+dbr:Huanggang a wco:City ;
+    wco:admin_name "Hubei"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "30.45"^^xsd:float ;
+    wco:longitude "114.875"^^xsd:float ;
+    wco:name "Huanggang"^^xsd:string ;
+    wco:name_ascii "Huanggang"^^xsd:string ;
+    wco:population "6667000"^^xsd:long .
+
+dbr:Hyderabad a wco:City ;
+    wco:admin_name "Telangana"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:India ;
+    wco:latitude "17.3667"^^xsd:float ;
+    wco:longitude "78.4667"^^xsd:float ;
+    wco:name "Hyderābād"^^xsd:string ;
+    wco:name_ascii "Hyderabad"^^xsd:string ;
+    wco:population "9746000"^^xsd:long .
+
+dbr:Istanbul a wco:City ;
+    wco:admin_name "İstanbul"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:Turkey ;
+    wco:latitude "41.01"^^xsd:float ;
+    wco:longitude "28.9603"^^xsd:float ;
+    wco:name "Istanbul"^^xsd:string ;
+    wco:name_ascii "Istanbul"^^xsd:string ;
+    wco:population "15154000"^^xsd:long .
+
+dbr:Jakarta a wco:City ;
+    wco:admin_name "Jakarta"^^xsd:string ;
+    wco:isCapitalOf dbr:Indonesia ;
+    wco:latitude "-6.2146"^^xsd:float ;
+    wco:longitude "106.8451"^^xsd:float ;
+    wco:name "Jakarta"^^xsd:string ;
+    wco:name_ascii "Jakarta"^^xsd:string ;
+    wco:population "34540000"^^xsd:long .
+
+dbr:Jining a wco:City ;
+    wco:admin_name "Shandong"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "35.4"^^xsd:float ;
+    wco:longitude "116.5667"^^xsd:float ;
+    wco:name "Jining"^^xsd:string ;
+    wco:name_ascii "Jining"^^xsd:string ;
+    wco:population "8023000"^^xsd:long .
+
+dbr:Karachi a wco:City ;
+    wco:admin_name "Sindh"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:Pakistan ;
+    wco:latitude "24.86"^^xsd:float ;
+    wco:longitude "67.01"^^xsd:float ;
+    wco:name "Karachi"^^xsd:string ;
+    wco:name_ascii "Karachi"^^xsd:string ;
+    wco:population "14835000"^^xsd:long .
+
+dbr:Khartoum a wco:City ;
+    wco:admin_name "Khartoum"^^xsd:string ;
+    wco:isCapitalOf dbr:Sudan ;
+    wco:latitude "15.6031"^^xsd:float ;
+    wco:longitude "32.5265"^^xsd:float ;
+    wco:name "Khartoum"^^xsd:string ;
+    wco:name_ascii "Khartoum"^^xsd:string ;
+    wco:population "7282000"^^xsd:long .
+
+dbr:Kolkata a wco:City ;
+    wco:admin_name "West Bengal"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:India ;
+    wco:latitude "22.5411"^^xsd:float ;
+    wco:longitude "88.3378"^^xsd:float ;
+    wco:name "Kolkāta"^^xsd:string ;
+    wco:name_ascii "Kolkata"^^xsd:string ;
+    wco:population "17560000"^^xsd:long .
+
+<http://dbpedia.org/resource/Kuala_Lumpur–Karak_Expressway> a wco:City ;
+    wco:admin_name "Kuala Lumpur"^^xsd:string ;
+    wco:isCapitalOf dbr:Malaysia ;
+    wco:latitude "3.1478"^^xsd:float ;
+    wco:longitude "101.6953"^^xsd:float ;
+    wco:name "Kuala Lumpur"^^xsd:string ;
+    wco:name_ascii "Kuala Lumpur"^^xsd:string ;
+    wco:population "8285000"^^xsd:long .
+
+dbr:Kunming a wco:City ;
+    wco:admin_name "Yunnan"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "25.0433"^^xsd:float ;
+    wco:longitude "102.7061"^^xsd:float ;
+    wco:name "Kunming"^^xsd:string ;
+    wco:name_ascii "Kunming"^^xsd:string ;
+    wco:population "6250000"^^xsd:long .
+
+dbr:Lagos a wco:City ;
+    wco:admin_name "Lagos"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:Nigeria ;
+    wco:latitude "6.45"^^xsd:float ;
+    wco:longitude "3.4"^^xsd:float ;
+    wco:name "Lagos"^^xsd:string ;
+    wco:name_ascii "Lagos"^^xsd:string ;
+    wco:population "15279000"^^xsd:long .
+
+dbr:Lahore a wco:City ;
+    wco:admin_name "Punjab"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:Pakistan ;
+    wco:latitude "31.5497"^^xsd:float ;
+    wco:longitude "74.3436"^^xsd:float ;
+    wco:name "Lahore"^^xsd:string ;
+    wco:name_ascii "Lahore"^^xsd:string ;
+    wco:population "11021000"^^xsd:long .
+
+dbr:Lima a wco:City ;
+    wco:admin_name "Lima"^^xsd:string ;
+    wco:isCapitalOf dbr:Peru ;
+    wco:latitude "-12.05"^^xsd:float ;
+    wco:longitude "-77.0333"^^xsd:float ;
+    wco:name "Lima"^^xsd:string ;
+    wco:name_ascii "Lima"^^xsd:string ;
+    wco:population "9848000"^^xsd:long .
+
+dbr:Linyi a wco:City ;
+    wco:admin_name "Shandong"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "35.0606"^^xsd:float ;
+    wco:longitude "118.3425"^^xsd:float ;
+    wco:name "Linyi"^^xsd:string ;
+    wco:name_ascii "Linyi"^^xsd:string ;
+    wco:population "10820000"^^xsd:long .
+
+dbr:London a wco:City ;
+    wco:admin_name "London, City of"^^xsd:string ;
+    wco:isCapitalOf dbr:United_Kingdom ;
+    wco:latitude "51.5072"^^xsd:float ;
+    wco:longitude "-0.1275"^^xsd:float ;
+    wco:name "London"^^xsd:string ;
+    wco:name_ascii "London"^^xsd:string ;
+    wco:population "10979000"^^xsd:long .
+
+dbr:Los_Angeles a wco:City ;
+    wco:admin_name "California"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:United_States ;
+    wco:latitude "34.1139"^^xsd:float ;
+    wco:longitude "-118.4068"^^xsd:float ;
+    wco:name "Los Angeles"^^xsd:string ;
+    wco:name_ascii "Los Angeles"^^xsd:string ;
+    wco:population "12750807"^^xsd:long .
+
+<http://dbpedia.org/resource/Lu'an> a wco:City ;
+    wco:admin_name "Anhui"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "31.7542"^^xsd:float ;
+    wco:longitude "116.5078"^^xsd:float ;
+    wco:name "Lu’an"^^xsd:string ;
+    wco:name_ascii "Lu'an"^^xsd:string ;
+    wco:population "6090000"^^xsd:long .
+
+dbr:Luanda a wco:City ;
+    wco:admin_name "Luanda"^^xsd:string ;
+    wco:isCapitalOf dbr:Angola ;
+    wco:latitude "-8.8383"^^xsd:float ;
+    wco:longitude "13.2344"^^xsd:float ;
+    wco:name "Luanda"^^xsd:string ;
+    wco:name_ascii "Luanda"^^xsd:string ;
+    wco:population "8417000"^^xsd:long .
+
+dbr:Luoyang a wco:City ;
+    wco:admin_name "Henan"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "34.6587"^^xsd:float ;
+    wco:longitude "112.4245"^^xsd:float ;
+    wco:name "Luoyang"^^xsd:string ;
+    wco:name_ascii "Luoyang"^^xsd:string ;
+    wco:population "6549941"^^xsd:long .
+
+dbr:Manila a wco:City ;
+    wco:admin_name "Manila"^^xsd:string ;
+    wco:isCapitalOf dbr:Philippines ;
+    wco:latitude "14.5958"^^xsd:float ;
+    wco:longitude "120.9772"^^xsd:float ;
+    wco:name "Manila"^^xsd:string ;
+    wco:name_ascii "Manila"^^xsd:string ;
+    wco:population "23088000"^^xsd:long .
+
+dbr:Maoming a wco:City ;
+    wco:admin_name "Guangdong"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "21.6618"^^xsd:float ;
+    wco:longitude "110.9178"^^xsd:float ;
+    wco:name "Maoming"^^xsd:string ;
+    wco:name_ascii "Maoming"^^xsd:string ;
+    wco:population "6706000"^^xsd:long .
+
+dbr:Mexico_City a wco:City ;
+    wco:admin_name "Ciudad de México"^^xsd:string ;
+    wco:isCapitalOf dbr:Mexico ;
+    wco:latitude "19.4333"^^xsd:float ;
+    wco:longitude "-99.1333"^^xsd:float ;
+    wco:name "Mexico City"^^xsd:string ;
+    wco:name_ascii "Mexico City"^^xsd:string ;
+    wco:population "20996000"^^xsd:long .
+
+dbr:Miami a wco:City ;
+    wco:admin_name "Florida"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:United_States ;
+    wco:latitude "25.7839"^^xsd:float ;
+    wco:longitude "-80.2102"^^xsd:float ;
+    wco:name "Miami"^^xsd:string ;
+    wco:name_ascii "Miami"^^xsd:string ;
+    wco:population "6445545"^^xsd:long .
+
+dbr:Moscow a wco:City ;
+    wco:admin_name "Moskva"^^xsd:string ;
+    wco:isCapitalOf dbr:Russia ;
+    wco:latitude "55.7558"^^xsd:float ;
+    wco:longitude "37.6178"^^xsd:float ;
+    wco:name "Moscow"^^xsd:string ;
+    wco:name_ascii "Moscow"^^xsd:string ;
+    wco:population "17125000"^^xsd:long .
+
+dbr:Mumbai a wco:City ;
+    wco:admin_name "Mahārāshtra"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:India ;
+    wco:latitude "18.9667"^^xsd:float ;
+    wco:longitude "72.8333"^^xsd:float ;
+    wco:name "Mumbai"^^xsd:string ;
+    wco:name_ascii "Mumbai"^^xsd:string ;
+    wco:population "23355000"^^xsd:long .
+
+dbr:Nagoya a wco:City ;
+    wco:admin_name "Aichi"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:Japan ;
+    wco:latitude "35.1167"^^xsd:float ;
+    wco:longitude "136.9333"^^xsd:float ;
+    wco:name "Nagoya"^^xsd:string ;
+    wco:name_ascii "Nagoya"^^xsd:string ;
+    wco:population "9113000"^^xsd:long .
+
+dbr:Nanchong a wco:City ;
+    wco:admin_name "Sichuan"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "30.7991"^^xsd:float ;
+    wco:longitude "106.0784"^^xsd:float ;
+    wco:name "Nanchong"^^xsd:string ;
+    wco:name_ascii "Nanchong"^^xsd:string ;
+    wco:population "6183000"^^xsd:long .
+
+dbr:Nanjing a wco:City ;
+    wco:admin_name "Jiangsu"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "32.05"^^xsd:float ;
+    wco:longitude "118.7667"^^xsd:float ;
+    wco:name "Nanjing"^^xsd:string ;
+    wco:name_ascii "Nanjing"^^xsd:string ;
+    wco:population "7496000"^^xsd:long .
+
+dbr:Nanning a wco:City ;
+    wco:admin_name "Guangxi"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "22.8192"^^xsd:float ;
+    wco:longitude "108.315"^^xsd:float ;
+    wco:name "Nanning"^^xsd:string ;
+    wco:name_ascii "Nanning"^^xsd:string ;
+    wco:population "7153300"^^xsd:long .
+
+dbr:Nantong a wco:City ;
+    wco:admin_name "Jiangsu"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "31.9829"^^xsd:float ;
+    wco:longitude "120.8873"^^xsd:float ;
+    wco:name "Nantong"^^xsd:string ;
+    wco:name_ascii "Nantong"^^xsd:string ;
+    wco:population "7282835"^^xsd:long .
+
+<http://dbpedia.org/resource/Nanyang,_Henan> a wco:City ;
+    wco:admin_name "Henan"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "32.9987"^^xsd:float ;
+    wco:longitude "112.5292"^^xsd:float ;
+    wco:name "Nanyang"^^xsd:string ;
+    wco:name_ascii "Nanyang"^^xsd:string ;
+    wco:population "12010000"^^xsd:long .
+
+dbr:New_York_City a wco:City ;
+    wco:admin_name "New York"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:United_States ;
+    wco:latitude "40.6943"^^xsd:float ;
+    wco:longitude "-73.9249"^^xsd:float ;
+    wco:name "New York"^^xsd:string ;
+    wco:name_ascii "New York"^^xsd:string ;
+    wco:population "18713220"^^xsd:long .
+
+dbr:Ningbo a wco:City ;
+    wco:admin_name "Zhejiang"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "29.875"^^xsd:float ;
+    wco:longitude "121.5492"^^xsd:float ;
+    wco:name "Ningbo"^^xsd:string ;
+    wco:name_ascii "Ningbo"^^xsd:string ;
+    wco:population "7639000"^^xsd:long .
+
+dbr:Onitsha a wco:City ;
+    wco:admin_name "Anambra"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:Nigeria ;
+    wco:latitude "6.1667"^^xsd:float ;
+    wco:longitude "6.7833"^^xsd:float ;
+    wco:name "Onitsha"^^xsd:string ;
+    wco:name_ascii "Onitsha"^^xsd:string ;
+    wco:population "7635000"^^xsd:long .
+
+dbr:Osaka a wco:City ;
+    wco:admin_name "Ōsaka"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:Japan ;
+    wco:latitude "34.6936"^^xsd:float ;
+    wco:longitude "135.5019"^^xsd:float ;
+    wco:name "Ōsaka"^^xsd:string ;
+    wco:name_ascii "Osaka"^^xsd:string ;
+    wco:population "14977000"^^xsd:long .
+
+dbr:Paris a wco:City ;
+    wco:admin_name "Île-de-France"^^xsd:string ;
+    wco:isCapitalOf dbr:France ;
+    wco:latitude "48.8566"^^xsd:float ;
+    wco:longitude "2.3522"^^xsd:float ;
+    wco:name "Paris"^^xsd:string ;
+    wco:name_ascii "Paris"^^xsd:string ;
+    wco:population "11020000"^^xsd:long .
+
+dbr:Pune a wco:City ;
+    wco:admin_name "Mahārāshtra"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:India ;
+    wco:latitude "18.5196"^^xsd:float ;
+    wco:longitude "73.8553"^^xsd:float ;
+    wco:name "Pune"^^xsd:string ;
+    wco:name_ascii "Pune"^^xsd:string ;
+    wco:population "7764000"^^xsd:long .
+
+dbr:Quanzhou a wco:City ;
+    wco:admin_name "Fujian"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "24.9139"^^xsd:float ;
+    wco:longitude "118.5858"^^xsd:float ;
+    wco:name "Quanzhou"^^xsd:string ;
+    wco:name_ascii "Quanzhou"^^xsd:string ;
+    wco:population "6480000"^^xsd:long .
+
+dbr:Rio_de_Janeiro a wco:City ;
+    wco:admin_name "Rio de Janeiro"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:Brazil ;
+    wco:latitude "-22.9083"^^xsd:float ;
+    wco:longitude "-43.1964"^^xsd:float ;
+    wco:name "Rio de Janeiro"^^xsd:string ;
+    wco:name_ascii "Rio de Janeiro"^^xsd:string ;
+    wco:population "12272000"^^xsd:long .
+
+dbr:Riyadh a wco:City ;
+    wco:admin_name "Ar Riyāḑ"^^xsd:string ;
+    wco:isCapitalOf dbr:Saudi_Arabia ;
+    wco:latitude "24.65"^^xsd:float ;
+    wco:longitude "46.71"^^xsd:float ;
+    wco:name "Riyadh"^^xsd:string ;
+    wco:name_ascii "Riyadh"^^xsd:string ;
+    wco:population "6881000"^^xsd:long .
+
+dbr:Roman_Catholic_Archdiocese_of_Ho_Chi_Minh_City a wco:City ;
+    wco:admin_name "Hồ Chí Minh"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:Vietnam ;
+    wco:latitude "10.8167"^^xsd:float ;
+    wco:longitude "106.6333"^^xsd:float ;
+    wco:name "Ho Chi Minh City"^^xsd:string ;
+    wco:name_ascii "Ho Chi Minh City"^^xsd:string ;
+    wco:population "13312000"^^xsd:long .
+
+dbr:Santiago a wco:City ;
+    wco:admin_name "Región Metropolitana"^^xsd:string ;
+    wco:isCapitalOf dbr:Chile ;
+    wco:latitude "-33.45"^^xsd:float ;
+    wco:longitude "-70.6667"^^xsd:float ;
+    wco:name "Santiago"^^xsd:string ;
+    wco:name_ascii "Santiago"^^xsd:string ;
+    wco:population "7007000"^^xsd:long .
+
+dbr:Seoul a wco:City ;
+    wco:admin_name "Seoul"^^xsd:string ;
+    wco:isCapitalOf dbr:South_Korea ;
+    wco:latitude "37.5833"^^xsd:float ;
+    wco:longitude "127.0"^^xsd:float ;
+    wco:name "Seoul"^^xsd:string ;
+    wco:name_ascii "Seoul"^^xsd:string ;
+    wco:population "21794000"^^xsd:long .
+
+dbr:Shanghai a wco:City ;
+    wco:admin_name "Shanghai"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "31.1667"^^xsd:float ;
+    wco:longitude "121.4667"^^xsd:float ;
+    wco:name "Shanghai"^^xsd:string ;
+    wco:name_ascii "Shanghai"^^xsd:string ;
+    wco:population "22120000"^^xsd:long .
+
+dbr:Shangrao a wco:City ;
+    wco:admin_name "Jiangxi"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "28.4419"^^xsd:float ;
+    wco:longitude "117.9633"^^xsd:float ;
+    wco:name "Shangrao"^^xsd:string ;
+    wco:name_ascii "Shangrao"^^xsd:string ;
+    wco:population "6579714"^^xsd:long .
+
+dbr:Shaoyang a wco:City ;
+    wco:admin_name "Hunan"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "27.2418"^^xsd:float ;
+    wco:longitude "111.4725"^^xsd:float ;
+    wco:name "Shaoyang"^^xsd:string ;
+    wco:name_ascii "Shaoyang"^^xsd:string ;
+    wco:population "7071000"^^xsd:long .
+
+dbr:Shenyang a wco:City ;
+    wco:admin_name "Liaoning"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "41.8039"^^xsd:float ;
+    wco:longitude "123.4258"^^xsd:float ;
+    wco:name "Shenyang"^^xsd:string ;
+    wco:name_ascii "Shenyang"^^xsd:string ;
+    wco:population "7105000"^^xsd:long .
+
+dbr:Shenzhen a wco:City ;
+    wco:admin_name "Guangdong"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "22.535"^^xsd:float ;
+    wco:longitude "114.054"^^xsd:float ;
+    wco:name "Shenzhen"^^xsd:string ;
+    wco:name_ascii "Shenzhen"^^xsd:string ;
+    wco:population "15929000"^^xsd:long .
+
+dbr:Shijiazhuang a wco:City ;
+    wco:admin_name "Hebei"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "38.0422"^^xsd:float ;
+    wco:longitude "114.5086"^^xsd:float ;
+    wco:name "Shijiazhuang"^^xsd:string ;
+    wco:name_ascii "Shijiazhuang"^^xsd:string ;
+    wco:population "10784600"^^xsd:long .
+
+dbr:São_Paulo a wco:City ;
+    wco:admin_name "São Paulo"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:Brazil ;
+    wco:latitude "-23.5504"^^xsd:float ;
+    wco:longitude "-46.6339"^^xsd:float ;
+    wco:name "São Paulo"^^xsd:string ;
+    wco:name_ascii "Sao Paulo"^^xsd:string ;
+    wco:population "22046000"^^xsd:long .
+
+dbr:Tangshan a wco:City ;
+    wco:admin_name "Hebei"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "39.6292"^^xsd:float ;
+    wco:longitude "118.1742"^^xsd:float ;
+    wco:name "Tangshan"^^xsd:string ;
+    wco:name_ascii "Tangshan"^^xsd:string ;
+    wco:population "7100000"^^xsd:long .
+
+dbr:Tianjin a wco:City ;
+    wco:admin_name "Tianjin"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "39.1467"^^xsd:float ;
+    wco:longitude "117.2056"^^xsd:float ;
+    wco:name "Tianjin"^^xsd:string ;
+    wco:name_ascii "Tianjin"^^xsd:string ;
+    wco:population "10800000"^^xsd:long .
+
+dbr:Tokyo a wco:City ;
+    wco:admin_name "Tōkyō"^^xsd:string ;
+    wco:isCapitalOf dbr:Japan ;
+    wco:latitude "35.6897"^^xsd:float ;
+    wco:longitude "139.6922"^^xsd:float ;
+    wco:name "Tokyo"^^xsd:string ;
+    wco:name_ascii "Tokyo"^^xsd:string ;
+    wco:population "37977000"^^xsd:long .
+
+dbr:Tongshan a wco:City ;
+    wco:admin_name "Jiangsu"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "34.261"^^xsd:float ;
+    wco:longitude "117.1859"^^xsd:float ;
+    wco:name "Tongshan"^^xsd:string ;
+    wco:name_ascii "Tongshan"^^xsd:string ;
+    wco:population "8669000"^^xsd:long .
+
+dbr:Weifang a wco:City ;
+    wco:admin_name "Shandong"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "36.7167"^^xsd:float ;
+    wco:longitude "119.1"^^xsd:float ;
+    wco:name "Weifang"^^xsd:string ;
+    wco:name_ascii "Weifang"^^xsd:string ;
+    wco:population "9373000"^^xsd:long .
+
+dbr:Wuhan a wco:City ;
+    wco:admin_name "Hubei"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "30.5872"^^xsd:float ;
+    wco:longitude "114.2881"^^xsd:float ;
+    wco:name "Wuhan"^^xsd:string ;
+    wco:name_ascii "Wuhan"^^xsd:string ;
+    wco:population "8962000"^^xsd:long .
+
+<http://dbpedia.org/resource/Xi'an> a wco:City ;
+    wco:admin_name "Shaanxi"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "34.2667"^^xsd:float ;
+    wco:longitude "108.9"^^xsd:float ;
+    wco:name "Xi’an"^^xsd:string ;
+    wco:name_ascii "Xi'an"^^xsd:string ;
+    wco:population "7135000"^^xsd:long .
+
+dbr:Xinyang a wco:City ;
+    wco:admin_name "Henan"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "32.1264"^^xsd:float ;
+    wco:longitude "114.0672"^^xsd:float ;
+    wco:name "Xinyang"^^xsd:string ;
+    wco:name_ascii "Xinyang"^^xsd:string ;
+    wco:population "6634000"^^xsd:long .
+
+dbr:Yancheng a wco:City ;
+    wco:admin_name "Jiangsu"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "33.3936"^^xsd:float ;
+    wco:longitude "120.1339"^^xsd:float ;
+    wco:name "Yancheng"^^xsd:string ;
+    wco:name_ascii "Yancheng"^^xsd:string ;
+    wco:population "7260240"^^xsd:long .
+
+dbr:Yantai a wco:City ;
+    wco:admin_name "Shandong"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "37.3997"^^xsd:float ;
+    wco:longitude "121.2664"^^xsd:float ;
+    wco:name "Yantai"^^xsd:string ;
+    wco:name_ascii "Yantai"^^xsd:string ;
+    wco:population "6516900"^^xsd:long .
+
+dbr:Yichun a wco:City ;
+    wco:admin_name "Jiangxi"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "27.8041"^^xsd:float ;
+    wco:longitude "114.383"^^xsd:float ;
+    wco:name "Yichun"^^xsd:string ;
+    wco:name_ascii "Yichun"^^xsd:string ;
+    wco:population "6048700"^^xsd:long .
+
+dbr:Zhanjiang a wco:City ;
+    wco:admin_name "Guangdong"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "21.1967"^^xsd:float ;
+    wco:longitude "110.4031"^^xsd:float ;
+    wco:name "Zhanjiang"^^xsd:string ;
+    wco:name_ascii "Zhanjiang"^^xsd:string ;
+    wco:population "6900000"^^xsd:long .
+
+dbr:Zhengzhou a wco:City ;
+    wco:admin_name "Henan"^^xsd:string ;
+    wco:isFirstLevelAdminCapitalOf dbr:China ;
+    wco:latitude "34.7492"^^xsd:float ;
+    wco:longitude "113.6605"^^xsd:float ;
+    wco:name "Zhengzhou"^^xsd:string ;
+    wco:name_ascii "Zhengzhou"^^xsd:string ;
+    wco:population "7005000"^^xsd:long .
+
+dbr:Zhoukou a wco:City ;
+    wco:admin_name "Henan"^^xsd:string ;
+    wco:isSecondLevelAdminCapitalOf dbr:China ;
+    wco:latitude "33.625"^^xsd:float ;
+    wco:longitude "114.6418"^^xsd:float ;
+    wco:name "Zhoukou"^^xsd:string ;
+    wco:name_ascii "Zhoukou"^^xsd:string ;
+    wco:population "9901000"^^xsd:long .
+
+dbr:Zhumadian a wco:City ;
+    wco:admin_name "Henan"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "32.9773"^^xsd:float ;
+    wco:longitude "114.0253"^^xsd:float ;
+    wco:name "Zhumadian"^^xsd:string ;
+    wco:name_ascii "Zhumadian"^^xsd:string ;
+    wco:population "7640000"^^xsd:long .
+
+dbr:Zunyi a wco:City ;
+    wco:admin_name "Guizhou"^^xsd:string ;
+    wco:cityIsLocatedIn dbr:China ;
+    wco:latitude "27.705"^^xsd:float ;
+    wco:longitude "106.9336"^^xsd:float ;
+    wco:name "Zunyi"^^xsd:string ;
+    wco:name_ascii "Zunyi"^^xsd:string ;
+    wco:population "6127009"^^xsd:long .
+
+dbr:Angola a wco:Country ;
+    wco:iso2code "AO"^^xsd:string ;
+    wco:iso3code "AGO"^^xsd:string ;
+    wco:name "Angola"^^xsd:string .
+
+dbr:Argentina a wco:Country ;
+    wco:iso2code "AR"^^xsd:string ;
+    wco:iso3code "ARG"^^xsd:string ;
+    wco:name "Argentina"^^xsd:string .
+
+dbr:Bangladesh a wco:Country ;
+    wco:iso2code "BD"^^xsd:string ;
+    wco:iso3code "BGD"^^xsd:string ;
+    wco:name "Bangladesh"^^xsd:string .
+
+dbr:British_Hong_Kong a wco:City,
+        wco:Country ;
+    wco:cityIsLocatedIn dbr:British_Hong_Kong ;
+    wco:iso2code "HK"^^xsd:string ;
+    wco:iso3code "HKG"^^xsd:string ;
+    wco:latitude "22.305"^^xsd:float ;
+    wco:longitude "114.185"^^xsd:float ;
+    wco:name "Hong Kong"^^xsd:string ;
+    wco:name_ascii "Hong Kong"^^xsd:string ;
+    wco:population "7347000"^^xsd:long .
+
+dbr:Chile a wco:Country ;
+    wco:iso2code "CL"^^xsd:string ;
+    wco:iso3code "CHL"^^xsd:string ;
+    wco:name "Chile"^^xsd:string .
+
+dbr:Colombia a wco:Country ;
+    wco:iso2code "CO"^^xsd:string ;
+    wco:iso3code "COL"^^xsd:string ;
+    wco:name "Colombia"^^xsd:string .
+
+dbr:Egypt a wco:Country ;
+    wco:iso2code "EG"^^xsd:string ;
+    wco:iso3code "EGY"^^xsd:string ;
+    wco:name "Egypt"^^xsd:string .
+
+dbr:France a wco:Country ;
+    wco:iso2code "FR"^^xsd:string ;
+    wco:iso3code "FRA"^^xsd:string ;
+    wco:name "France"^^xsd:string .
+
+dbr:Indonesia a wco:Country ;
+    wco:iso2code "ID"^^xsd:string ;
+    wco:iso3code "IDN"^^xsd:string ;
+    wco:name "Indonesia"^^xsd:string .
+
+dbr:Kinshasa a wco:City,
+        wco:Country ;
+    wco:admin_name "Kinshasa"^^xsd:string ;
+    wco:isCapitalOf dbr:Kinshasa ;
+    wco:iso2code "CD"^^xsd:string ;
+    wco:iso3code "COD"^^xsd:string ;
+    wco:latitude "-4.3317"^^xsd:float ;
+    wco:longitude "15.3139"^^xsd:float ;
+    wco:name "Congo (Kinshasa)"^^xsd:string,
+        "Kinshasa"^^xsd:string ;
+    wco:name_ascii "Kinshasa"^^xsd:string ;
+    wco:population "13528000"^^xsd:long .
+
+dbr:Malaysia a wco:Country ;
+    wco:iso2code "MY"^^xsd:string ;
+    wco:iso3code "MYS"^^xsd:string ;
+    wco:name "Malaysia"^^xsd:string .
+
+dbr:Mexico a wco:Country ;
+    wco:iso2code "MX"^^xsd:string ;
+    wco:iso3code "MEX"^^xsd:string ;
+    wco:name "Mexico"^^xsd:string .
+
+dbr:Peru a wco:Country ;
+    wco:iso2code "PE"^^xsd:string ;
+    wco:iso3code "PER"^^xsd:string ;
+    wco:name "Peru"^^xsd:string .
+
+dbr:Philippines a wco:Country ;
+    wco:iso2code "PH"^^xsd:string ;
+    wco:iso3code "PHL"^^xsd:string ;
+    wco:name "Philippines"^^xsd:string .
+
+dbr:Russia a wco:Country ;
+    wco:iso2code "RU"^^xsd:string ;
+    wco:iso3code "RUS"^^xsd:string ;
+    wco:name "Russia"^^xsd:string .
+
+dbr:Saudi_Arabia a wco:Country ;
+    wco:iso2code "SA"^^xsd:string ;
+    wco:iso3code "SAU"^^xsd:string ;
+    wco:name "Saudi Arabia"^^xsd:string .
+
+dbr:South_Korea a wco:Country ;
+    wco:iso2code "KR"^^xsd:string ;
+    wco:iso3code "KOR"^^xsd:string ;
+    wco:name "Korea, South"^^xsd:string .
+
+dbr:Sudan a wco:Country ;
+    wco:iso2code "SD"^^xsd:string ;
+    wco:iso3code "SDN"^^xsd:string ;
+    wco:name "Sudan"^^xsd:string .
+
+dbr:Tanzania a wco:Country ;
+    wco:iso2code "TZ"^^xsd:string ;
+    wco:iso3code "TZA"^^xsd:string ;
+    wco:name "Tanzania"^^xsd:string .
+
+dbr:Tehran a wco:City,
+        wco:Country ;
+    wco:admin_name "Tehrān"^^xsd:string ;
+    wco:isCapitalOf dbr:Tehran ;
+    wco:iso2code "IR"^^xsd:string ;
+    wco:iso3code "IRN"^^xsd:string ;
+    wco:latitude "35.7"^^xsd:float ;
+    wco:longitude "51.4167"^^xsd:float ;
+    wco:name "Iran"^^xsd:string,
+        "Tehran"^^xsd:string ;
+    wco:name_ascii "Tehran"^^xsd:string ;
+    wco:population "13633000"^^xsd:long .
+
+dbr:Thailand a wco:Country ;
+    wco:iso2code "TH"^^xsd:string ;
+    wco:iso3code "THA"^^xsd:string ;
+    wco:name "Thailand"^^xsd:string .
+
+dbr:Turkey a wco:Country ;
+    wco:iso2code "TR"^^xsd:string ;
+    wco:iso3code "TUR"^^xsd:string ;
+    wco:name "Turkey"^^xsd:string .
+
+dbr:United_Kingdom a wco:Country ;
+    wco:iso2code "GB"^^xsd:string ;
+    wco:iso3code "GBR"^^xsd:string ;
+    wco:name "United Kingdom"^^xsd:string .
+
+dbr:Brazil a wco:Country ;
+    wco:iso2code "BR"^^xsd:string ;
+    wco:iso3code "BRA"^^xsd:string ;
+    wco:name "Brazil"^^xsd:string .
+
+dbr:Nigeria a wco:Country ;
+    wco:iso2code "NG"^^xsd:string ;
+    wco:iso3code "NGA"^^xsd:string ;
+    wco:name "Nigeria"^^xsd:string .
+
+dbr:Pakistan a wco:Country ;
+    wco:iso2code "PK"^^xsd:string ;
+    wco:iso3code "PAK"^^xsd:string ;
+    wco:name "Pakistan"^^xsd:string .
+
+dbr:Vietnam a wco:Country ;
+    wco:iso2code "VN"^^xsd:string ;
+    wco:iso3code "VNM"^^xsd:string ;
+    wco:name "Vietnam"^^xsd:string .
+
+dbr:Japan a wco:Country ;
+    wco:iso2code "JP"^^xsd:string ;
+    wco:iso3code "JPN"^^xsd:string ;
+    wco:name "Japan"^^xsd:string .
+
+dbr:United_States a wco:Country ;
+    wco:iso2code "US"^^xsd:string ;
+    wco:iso3code "USA"^^xsd:string ;
+    wco:name "United States"^^xsd:string .
+
+dbr:India a wco:Country ;
+    wco:iso2code "IN"^^xsd:string ;
+    wco:iso3code "IND"^^xsd:string ;
+    wco:name "India"^^xsd:string .
+
+dbr:China a wco:Country ;
+    wco:iso2code "CN"^^xsd:string ;
+    wco:iso3code "CHN"^^xsd:string ;
+    wco:name "China"^^xsd:string .
+
