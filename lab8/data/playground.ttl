@@ -1,98 +1,194 @@
+@prefix : <http://sparql-playground.sib.swiss/> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix dbp: <http://dbpedia.org/property/> .
-@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix tto: <http://example.org/tuto/ontology#> .
 @prefix ttr: <http://example.org/tuto/resource#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@base <http://sparql-playground.sib.swiss/> .
 
-ttr:Eve dbo:parent ttr:William ;
-	dbp:birthDate "2006-11-03"^^xsd:date ;
-	dbp:name "Eve" ;
-	tto:sex "female" ;
-	a dbo:Person .
+<http://sparql-playground.sib.swiss/> rdf:type owl:Ontology ;
+                                       owl:versionInfo "1.0" .
 
-ttr:John dbp:birthDate "1942-02-02"^^xsd:date ;
-	dbp:name "John" ;
-	tto:pet ttr:LunaCat , ttr:TomCat ;
-	tto:sex "male" ;
-	a dbo:Person .
+#################################################################
+#    Datatypes
+#################################################################
 
-ttr:LunaCat dbp:name "Luna" ;
-	tto:color "violet" ;
-	tto:sex "female" ;
-	tto:weight 4.2 ;
-	a tto:Cat .
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
 
-ttr:RexDog dbp:name "Rex" ;
-	tto:color "brown" ;
-	tto:sex "male" ;
-	tto:weight 8.8 ;
-	a tto:Dog .
 
-ttr:SnuffMonkey dbp:name "Snuff" ;
-	tto:color "golden" ;
-	tto:sex "male" ;
-	tto:weight 3.6 ;
-	a tto:Monkey .
+#################################################################
+#    Object Properties
+#################################################################
 
-ttr:TomCat dbp:name "Tom" ;
-	tto:color "grey" ;
-	tto:sex "male" ;
-	tto:weight 5.8 ;
-	a tto:Cat .
+###  http://dbpedia.org/ontology/parent
+dbo:parent rdf:type owl:ObjectProperty ;
+           rdfs:domain tto:Creature ;
+           rdfs:range tto:Creature .
 
-ttr:William dbo:parent ttr:John ;
-	dbp:birthDate "1978-07-20"^^xsd:date ;
-	dbp:name "William" ;
-	tto:pet ttr:RexDog ;
-	tto:sex "male" ;
-	a dbo:Person .
 
-dbo:Person rdfs:subClassOf tto:Creature .
+###  http://example.org/tuto/ontology#pet
+tto:pet rdf:type owl:ObjectProperty ;
+        rdfs:domain dbo:Person ;
+        rdfs:range tto:Animal ;
+        rdfs:isDefinedBy tto: ;
+        rdfs:label "domestic animal" .
 
-tto:Animal a owl:Class ;
-	rdfs:isDefinedBy <http://example.org/tuto/ontology#> ;
-	rdfs:label "animal" ;
-	rdfs:subClassOf tto:Creature .
 
-tto:Cat a owl:Class ;
-	rdfs:isDefinedBy <http://example.org/tuto/ontology#> ;
-	rdfs:label "cat" ;
-	rdfs:subClassOf tto:Animal .
+#################################################################
+#    Data properties
+#################################################################
 
-tto:Creature a owl:Class ;
-	rdfs:isDefinedBy <http://example.org/tuto/ontology#> ;
-	rdfs:label "creature" .
+###  http://dbpedia.org/property/birthDate
+dbp:birthDate rdf:type owl:DatatypeProperty ;
+              rdfs:domain tto:Creature ;
+              rdfs:range xsd:date .
 
-tto:Dog a owl:Class ;
-	rdfs:isDefinedBy <http://example.org/tuto/ontology#> ;
-	rdfs:label "dog" ;
-	rdfs:subClassOf tto:Animal .
 
-tto:Monkey a owl:Class ;
-	rdfs:isDefinedBy <http://example.org/tuto/ontology#> ;
-	rdfs:label "monkey" ;
-	rdfs:subClassOf tto:Animal .
+###  http://dbpedia.org/property/name
+dbp:name rdf:type owl:DatatypeProperty ;
+         rdfs:domain tto:Creature ;
+         rdfs:range xsd:string .
 
-tto:pet a owl:ObjectProperty ;
-	rdfs:domain dbo:Person ;
-	rdfs:isDefinedBy <http://example.org/tuto/ontology#> ;
-	rdfs:label "domestic animal" ;
-	rdfs:range tto:Animal .
 
-tto:sex a owl:DatatypeProperty ;
-	rdfs:domain tto:Creature ;
-	rdfs:isDefinedBy <http://example.org/tuto/ontology#> ;
-	rdfs:label "sex" ;
-	rdfs:range xsd:string .
+###  http://example.org/tuto/ontology#color
+tto:color rdf:type owl:DatatypeProperty ;
+          rdfs:domain tto:Creature ;
+          rdfs:range xsd:string .
 
-tto:weight a owl:DatatypeProperty ;
-	rdfs:comment "weight in kilograms" ;
-	rdfs:domain tto:Creature ;
-	rdfs:isDefinedBy <http://example.org/tuto/ontology#> ;
-	rdfs:label "weight" ;
-	rdfs:range xsd:decimal .
 
+###  http://example.org/tuto/ontology#sex
+tto:sex rdf:type owl:DatatypeProperty ;
+        rdfs:domain tto:Creature ;
+        rdfs:range xsd:string ;
+        rdfs:isDefinedBy tto: ;
+        rdfs:label "sex" .
+
+
+###  http://example.org/tuto/ontology#weight
+tto:weight rdf:type owl:DatatypeProperty ;
+           rdfs:domain tto:Creature ;
+           rdfs:range xsd:decimal ;
+           rdfs:comment "weight in kilograms" ;
+           rdfs:isDefinedBy tto: ;
+           rdfs:label "weight" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/ontology/Person
+dbo:Person rdf:type owl:Class ;
+           rdfs:subClassOf tto:Creature .
+
+
+###  http://example.org/tuto/ontology#Animal
+tto:Animal rdf:type owl:Class ;
+           rdfs:subClassOf tto:Creature ;
+           rdfs:isDefinedBy tto: ;
+           rdfs:label "animal" .
+
+
+###  http://example.org/tuto/ontology#Cat
+tto:Cat rdf:type owl:Class ;
+        rdfs:subClassOf tto:Animal ;
+        rdfs:isDefinedBy tto: ;
+        rdfs:label "cat" .
+
+
+###  http://example.org/tuto/ontology#Creature
+tto:Creature rdf:type owl:Class ;
+             rdfs:isDefinedBy tto: ;
+             rdfs:label "creature" .
+
+
+###  http://example.org/tuto/ontology#Dog
+tto:Dog rdf:type owl:Class ;
+        rdfs:subClassOf tto:Animal ;
+        rdfs:isDefinedBy tto: ;
+        rdfs:label "dog" .
+
+
+###  http://example.org/tuto/ontology#Monkey
+tto:Monkey rdf:type owl:Class ;
+           rdfs:subClassOf tto:Animal ;
+           rdfs:isDefinedBy tto: ;
+           rdfs:label "monkey" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://example.org/tuto/resource#Eve
+ttr:Eve rdf:type owl:NamedIndividual ,
+                 dbo:Person ;
+        dbo:parent ttr:William ;
+        dbp:birthDate "2006-11-03"^^xsd:date ;
+        dbp:name "Eve" ;
+        tto:sex "female" .
+
+
+###  http://example.org/tuto/resource#John
+ttr:John rdf:type owl:NamedIndividual ,
+                  dbo:Person ;
+         tto:pet ttr:LunaCat ,
+                 ttr:TomCat ;
+         dbp:birthDate "1942-02-02"^^xsd:date ;
+         dbp:name "John" ;
+         tto:sex "male" .
+
+
+###  http://example.org/tuto/resource#LunaCat
+ttr:LunaCat rdf:type owl:NamedIndividual ,
+                     tto:Cat ;
+            dbp:name "Luna" ;
+            tto:color "violet" ;
+            tto:sex "female" ;
+            tto:weight 4.2 .
+
+
+###  http://example.org/tuto/resource#RexDog
+ttr:RexDog rdf:type owl:NamedIndividual ,
+                    tto:Dog ;
+           dbp:name "Rex" ;
+           tto:color "brown" ;
+           tto:sex "male" ;
+           tto:weight 8.8 .
+
+
+###  http://example.org/tuto/resource#SnuffMonkey
+ttr:SnuffMonkey rdf:type owl:NamedIndividual ,
+                         tto:Monkey ;
+                dbp:name "Snuff" ;
+                tto:color "golden" ;
+                tto:sex "male" ;
+                tto:weight 3.6 .
+
+
+###  http://example.org/tuto/resource#TomCat
+ttr:TomCat rdf:type owl:NamedIndividual ,
+                    tto:Cat ;
+           dbp:name "Tom" ;
+           tto:color "grey" ;
+           tto:sex "male" ;
+           tto:weight 5.8 .
+
+
+###  http://example.org/tuto/resource#William
+ttr:William rdf:type owl:NamedIndividual ,
+                     dbo:Person ;
+            dbo:parent ttr:John ;
+            tto:pet ttr:RexDog ;
+            dbp:birthDate "1978-07-20"^^xsd:date ;
+            dbp:name "William" ;
+            tto:sex "male" .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
