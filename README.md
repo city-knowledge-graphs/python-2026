@@ -5,12 +5,11 @@
 - **Laboratory 3**: Modelling OWL ontologies in Protégé.
 - **Laboratory 4**: Reasoning with RDFS Semantics and OWL 2 RL
 - **Laboratory 5**: Ontology Alignment
-<!-- 
-- **Laboratory 4**: Exposing Tabular Data as an RDF-based Knowledge Graph
-- **Laboratory 5**: Querying RDF-basedKnowledge Graphs via SPARQL 1.0- 
-- **Laboratory 7**: SPARQL 1.1, rules and GraphDB
-- **Laboratory 9**: Ontology Embeddings with OWL2Vec*
--->
+- **Laboratory 6**: Exposing Tabular Data as an RDF-based Knowledge Graph
+- **Laboratory 7**: Knowledge Graphs and Language Models
+- **Laboratory 8**: Querying RDF-basedKnowledge Graphs via SPARQL 1.0
+- **Laboratory 9**: SPARQL 1.1, rules and SHACL
+- **Laboratory 10**: Graph Database Solutions
 
 
 ### Key libraries

@@ -1,0 +1,127 @@
+@prefix : <http://sparql-playground.sib.swiss/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tto: <http://example.org/tuto/ontology#> .
+@prefix ttr: <http://example.org/tuto/resource#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbo:parent a owl:ObjectProperty ;
+    rdfs:domain tto:Creature ;
+    rdfs:range tto:Creature .
+
+dbp:birthDate a owl:DatatypeProperty ;
+    rdfs:domain tto:Creature ;
+    rdfs:range xsd:date .
+
+dbp:name a owl:DatatypeProperty ;
+    rdfs:domain tto:Creature ;
+    rdfs:range xsd:string .
+
+tto:color a owl:DatatypeProperty ;
+    rdfs:domain tto:Creature ;
+    rdfs:range xsd:string .
+
+tto:pet a owl:ObjectProperty ;
+    rdfs:label "domestic animal" ;
+    rdfs:domain dbo:Person ;
+    rdfs:isDefinedBy tto: ;
+    rdfs:range tto:Animal .
+
+tto:sex a owl:DatatypeProperty ;
+    rdfs:label "sex" ;
+    rdfs:domain tto:Creature ;
+    rdfs:isDefinedBy tto: ;
+    rdfs:range xsd:string .
+
+tto:weight a owl:DatatypeProperty ;
+    rdfs:label "weight" ;
+    rdfs:comment "weight in kilograms" ;
+    rdfs:domain tto:Creature ;
+    rdfs:isDefinedBy tto: ;
+    rdfs:range xsd:decimal .
+
+ttr:Eve a dbo:Person,
+        owl:NamedIndividual ;
+    rdfs:label "Eve" ;
+    dbo:parent ttr:William ;
+    dbp:birthDate "2006-11-03"^^xsd:date ;
+    tto:sex "female" .
+
+ttr:SnuffMonkey a tto:Monkey,
+        owl:NamedIndividual ;
+    rdfs:label "Snuff" ;
+    tto:color "golden" ;
+    tto:sex "male" ;
+    tto:weight 3.6 .
+
+: a owl:Ontology ;
+    owl:versionInfo "1.0" .
+
+tto:Dog a owl:Class ;
+    rdfs:label "dog" ;
+    rdfs:isDefinedBy tto: ;
+    rdfs:subClassOf tto:Animal .
+
+tto:Monkey a owl:Class ;
+    rdfs:label "monkey" ;
+    rdfs:isDefinedBy tto: ;
+    rdfs:subClassOf tto:Animal .
+
+ttr:John a dbo:Person,
+        owl:NamedIndividual ;
+    rdfs:label "John" ;
+    dbp:birthDate "1942-02-02"^^xsd:date ;
+    tto:pet ttr:LunaCat,
+        ttr:TomCat ;
+    tto:sex "male" .
+
+ttr:LunaCat a tto:Cat,
+        owl:NamedIndividual ;
+    rdfs:label "Luna" ;
+    tto:color "violet" ;
+    tto:sex "female" ;
+    tto:weight 4.2 .
+
+ttr:RexDog a tto:Dog,
+        owl:NamedIndividual ;
+    rdfs:label "Rex" ;
+    tto:color "brown" ;
+    tto:sex "male" ;
+    tto:weight 8.8 .
+
+ttr:TomCat a tto:Cat,
+        owl:NamedIndividual ;
+    rdfs:label "Tom" ;
+    tto:color "grey" ;
+    tto:sex "male" ;
+    tto:weight 5.8 .
+
+ttr:William a dbo:Person,
+        owl:NamedIndividual ;
+    rdfs:label "William" ;
+    dbo:parent ttr:John ;
+    dbp:birthDate "1978-07-20"^^xsd:date ;
+    tto:pet ttr:RexDog ;
+    tto:sex "male" .
+
+xsd:date a rdfs:Datatype .
+
+tto:Cat a owl:Class ;
+    rdfs:label "cat" ;
+    rdfs:isDefinedBy tto: ;
+    rdfs:subClassOf tto:Animal .
+
+dbo:Person a owl:Class ;
+    rdfs:subClassOf tto:Creature .
+
+tto:Animal a owl:Class ;
+    rdfs:label "animal" ;
+    rdfs:isDefinedBy tto: ;
+    rdfs:subClassOf tto:Creature .
+
+tto:Creature a owl:Class ;
+    rdfs:label "creature" ;
+    rdfs:isDefinedBy tto: .
+
